@@ -1,0 +1,59 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[4]{h}},
+    bakingtime={\unit[12-15]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[375]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    portion = {\portion{32}},
+    %calory={\unit[3]{kJ}},
+    source = {Mrs. Drake}
+]
+{Butterhorns}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+        5 tsp & Yeast \\
+        1/3 cup & Warm Water \\
+        2 cups & Warm Milk \\
+        9 cups & Flour \\
+        1 cup & Shortening \\
+        1 cup & Sugar \\
+        6 & Eggs \\
+        2 tsp & Salt \\
+        4 Tbls & Butter \\
+    }
+    
+    \preparation{%
+        \step Dissolve yeast in water.  Add 4 cups of flour, milk, shortening, sugar, eggs,m and salt.  Beat for 2 minutes.  Add remaining flour to make dough soft.
+        \step Knead lightly and place in greased bowl to raise for 2 - 3 hours.
+        \step Punch down and divide into 4 parts.  Roll each into a 9 inch circle.  Brush with butter and cut into 8 pie-like wedges.  Roll each wedge from the edge down.
+        \step Freeze.  Thaw for 5 hours and bake.
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    \suggestion{%
+		If you don't desire to freeze some or all of the rolls, let rise again instead of freezing.
+    }
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}

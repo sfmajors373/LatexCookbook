@@ -1,0 +1,57 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[1/2]{h}},
+    bakingtime={\unit[1]{h}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[250]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    %portion = {\portion{16}},
+    %calory={\unit[3]{kJ}},
+    %source = {Somebody you used know \url{www.}}
+]
+{Caramel Corn}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    \introduction{
+        Buttery and sweet and crunchy, and makes more than enough to share.
+    }
+    
+    \ingredients{%
+        8 Tbls & Butter \\
+        8 Tbls & Margarine\\
+        2 cups & Brown Sugar\\
+        1/2 cup & Light Corn Syrup\\
+        1/2 tsp & Baking Soda\\
+        1 tsp & Vanilla\\
+        6 Quarts & Popcorn
+    }
+    
+    \preparation{%
+        \step Boil butter, margarine, brown sugar and corn syrup for 5 minutes without stirring.
+        \step Remove from heat and quickly stir in baking soda and vanilla.  Mix well.
+        \step Pour mixture over the popcorn and mix.  Place in the oven for 15 minutes and remix.  Continue for one hour.
+        \step At the end of the hour. Turn off the oven and leave the caramel corn in the oven as it cools.
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    %\suggestion{%
+       
+    %}
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  % }
+    
+\end{recipe}

@@ -1,0 +1,63 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[2]{h}},
+    bakingtime={\unit[10]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[350]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    %portion = {\portion{16}},
+    %calory={\unit[3]{kJ}},
+    %source = {Somebody you used know \url{www.}}
+]
+{Nut Filled Cookies}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+       6 1/2 cups & Flour \\
+       1 lb & Butter\\
+       1/2 pint & Cream\\
+       10 & Egg Yolks\\
+       1 box & Powdered Sugar
+       Filling:\\
+       10 & Egg Whites\\
+       1 box & Powdered Sugar\\
+       3 lbs & Ground Walnuts\\
+    }
+    
+    \preparation{%
+        \step Combine butter and egg yolks. Alternate additions of flour and cream.
+        \step Roll into small balls.
+        \step Refrigerate overnight; roll in powdered sugar.
+        \step Beat egg whites until stiff.
+        \step Add powdered sugar and beat well.
+        \step Incorporate finely ground nuts with a spoon - do not beat.
+        \step Bake for 10 minutes.
+
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    \suggestion{%
+    1 box of powdered sugar is equal to 1 pound or 3 3/4 cups.
+    }
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}

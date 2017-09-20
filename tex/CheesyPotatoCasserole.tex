@@ -1,0 +1,54 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[10]{min}},
+    bakingtime={\unit[30]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[350]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    portion = {\portion{6}},
+    %calory={\unit[3]{kJ}},
+    %source = {Somebody you used know \url{www.}}
+]
+{Cheesy Potato Casserole}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+     %   Warm and melty and buttery and cheesy with a crispy top
+    %}
+    
+    \ingredients{%
+        32 oz  & Frozen Hash Browns\\
+        1/2 cup & Sour Cream\\
+        1 cup & Shredded Cheese\\
+        1/4 cup & Butter\\
+        1 can & Cream of Chicken Soup\\
+        Sprinkling & Breadcrumbs
+    }
+    
+    \preparation{%
+        \step Combine all ingredients in a baking dish such as a 9x13 and mix well.  Sprinkle breadcrumbs and a little additional melted butter on top for a crispy topping.
+        \step Bake.
+    }
+    
+    %\suggestion[Finishing]
+   % {%
+        
+   % }
+    
+    %\suggestion{%
+     %   The cake is delicious alone, but try the chocolate icing, whipped cream icing or Kaufman icing as well.
+   
+ %}
+    
+    \hint{%
+        Not the recipe for low fat or low sodium ingredients.  Try taking the chicken base from the pot pie and using it, but do not use a low fat canned chicken soup.
+    }
+\end{recipe}

@@ -1,0 +1,64 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[1]{h}},
+    bakingtime={\unit[1]{h}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[400]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    portion = {\portion{16}},
+    %calory={\unit[3]{kJ}},
+    source = {Uncle Bob}
+]
+{Cheesecake}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+        1 1/2 cups & Flour \\
+        1/3 cup & Sugar \\
+        1 & Egg \\
+        1/2 cup & Butter, Softened \\
+        1 3/4 cup & Sugar \\
+        5 & Eggs \\
+        2 & Egg Yolks \\
+        1/4 cup & Whipping Cream \\
+        Crust: \\
+        1 1/2 cups & Flour \\
+        1/3 cup & Sugar \\
+        1 & Egg \\
+        1/2 cup & Butter \\
+    }
+    
+    \preparation{%
+        \step Preheat the oven, grease 10" spring form pan or 9x13 pan.
+        \step Crust: Combine crust ingredients.  Mix well and spread in bottom of pan.  Prick with fork and bake for 15 minutes.  Allow to cool before proceeding.
+        \step Increase the oven temperature to 475F.
+        \step Mix cream cheese, sugar, flour, eggs, and yolks.  Add in cream - mix just until blended.
+        \step Pour over crust.  Bake 10 minutes and reduce temperature to 200F.  Bake for one additional hour.  Turn off the oven and leave the cheesecake in the oven for one more hour.
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    %\suggestion{%
+
+    %}
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}

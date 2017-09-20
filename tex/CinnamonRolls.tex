@@ -1,0 +1,68 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[2]{h}},
+    bakingtime={\unit[10]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[400]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    portion = {\portion{12}},
+    %calory={\unit[3]{kJ}},
+    %source = {Somebody you used know \url{www.}}
+]
+{Cinnamon Rolls}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+        Bread: \\
+        2 1/4 tsp & Yeast \\
+        1 cup & Warm Milk \\
+        1/2 cup & Sugar \\
+        1/3 cup & Butter \\
+        2 & Eggs \\
+        4 cups & Flour \\
+        Filling: \\
+        1 cup & Brown Sugar \\
+        2 1/2 tsp & Cinnamon \\
+        1/3 cup & Butter \\
+        Icing: \\
+        1/2 cup & Butter \\
+        1 1/2 cups & Powdered Sugar \\
+        1/2 cup & Cream Cheese \\
+        1/2 tsp & Vanilla \\        
+    }
+    
+    \preparation{%
+        \step Dissolve yeast in milk.  Mix in all other ingredients for the dough.
+        \step Knead and let raise for 1 hour.
+        \step Roll into 21"x16" rectangle.
+        \step Spread filling over rectangle.  
+        \step Roll the dough from the short end, and cut into 12 pieces.  Place into 9x13 stone.
+        \step Bake for 10 minutes.
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    %\suggestion{%
+
+    %}
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}

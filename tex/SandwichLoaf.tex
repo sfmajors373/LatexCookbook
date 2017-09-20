@@ -1,0 +1,56 @@
+% Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[1 1/2]{h}},
+    bakingtime={\unit[20]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[365]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    %portion = {\portion{16}},
+    %calory={\unit[3]{kJ}},
+    source = {Mrs. Drake}
+]
+{Sandwich Loaf}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+        1 pkg & Yeast \\
+        1 1/2 cups & Warm Water \\
+        1 Tbls & Sugar \\
+        1 1/2 tsp & Salt \\
+        1 Tbls & Shortening \\
+        4 cups & Flour \\
+    }
+    
+    \preparation{%
+        \step Combine all ingredients.  Knead until smooth and let rest for 10 minutes.  
+        \step Cut off a small portion of dough and set aside.  Roll into rectangle and top with desired fillings.  Roll the reserved piece of dough to the same length as the filled rectangle and set on top of the end where you will begin rolling the log.  Top the strip of dough with additional fillings.  Roll into a log.
+        \step Cover log with a wet towel and let raise for one hour.
+        \step Bake until golden.
+    }
+    
+    \suggestion[Finishing]
+    {%
+    	Great for a large pepperoni roll, filled with lots of mozzarella or even as a reuben (just be sure to squeeze the excess liquid from the sauerkraut).    
+    }
+    
+    %\suggestion{%
+
+    %}
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}
