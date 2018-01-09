@@ -1,0 +1,68 @@
+%Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[1]{h}},
+    %bakingtime={\unit[25-35]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[350]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    portion = {\portion{16}},
+    %calory={\unit[3]{kJ}},
+    %source = {Somebody you used know \url{www.}}
+]
+{Vegetable Lasagna}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+        12 & Lasagna Noodles\\
+	2 lbs & Ricotta \\
+	2 & eggs \\
+	2 lbs & Mozzarella \\
+	3 cups & Parmesan \\
+	1 & Red Pepper \\
+	1 & Green Pepper \\
+	1 & Yellow Pepper \\
+	1 & Medium Summer Squash \\
+	1 & Medium Zucchini \\
+	1 & Onion \\
+	1 lb & Broccoli \\
+	1 box & Frozen Chopped Spinach \\
+	Sauce: 3 cups & Milk \\
+	1 stick & Butter \\
+	1/2 cup & Flour \\
+	& Italian Seasoning \\
+	& Garlic Powder \\
+	3 cups & Chicken Broth \\
+    }
+    
+    \preparation{%
+        \step Cook the butter and flour.  Add the milk, cook for a moment more then add remaining sauce ingredients and cook until thick.
+	\step In a separate pot, cook the lasagna noodles, drain and allow to cool slightly.
+	\step Layer sauce, noodles and vegetables.
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    %\suggestion{%
+
+    %}
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}

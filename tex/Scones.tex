@@ -1,0 +1,58 @@
+%Complete recipe example
+\begin{recipe}
+[% 
+    preparationtime = {\unit[1]{h}},
+    bakingtime={\unit[12-15]{min}},
+    bakingtemperature={\protect\bakingtemperature{
+        fanoven=\unit[375]{°F}}},
+        %topbottomheat=\unit[195]{°C},
+        %topheat=\unit[195]{°C},
+        %gasstove=Level 2}},
+    portion = {\portion{32 scones}},
+    %calory={\unit[3]{kJ}},
+    source = {Fran Mazur}
+]
+{Scones}
+    
+    \graph
+    {% pictures
+        small=pic/glass,     % small picture
+        big=pic/ingredients  % big picture
+    }
+    
+    %\introduction{
+
+    %}
+    
+    \ingredients{%
+        3 cups & Flour \\
+	3/4 cup & Sugar \\
+	2 Tbls & Baking Powder \\
+	3/4 cup & Butter \\
+	1 cup & Craisins \\
+	1 & Egg \\
+	1 cup & Milk \\
+    }
+    
+    \preparation{%
+        \step Mix flour, sugar and baking powder.  Cut in butter.  Incorporate craisins.  In separate bowl, beat egg and add in milk.  Milk lightly into flour mixture with fork until dough forms a ball.
+ 	\step Turn onto a floured surface and pat into a rectangle.  Fold in thirds and pat into rectangle again.  Fold into thirds in opposite direction and pat into a square 3/4" thick.
+	\step Cut square into 16 squares, then on diagonals for 32 scones.
+	\step If you desire, you may freeze the scones at this point.
+	\step Brush with milk and sprinkle with sugar.  Bake on a lined sheet for 12 - 15 minutes.
+    }
+    
+    %\suggestion[Finishing]
+    %{%
+        
+    %}
+    
+    %\suggestion{%
+
+    %}
+    
+    %\hint{%
+   %     Enjoy typesetting recipes with {\textbf{\Large\LaTeX}} and {\textbf{\Large xcookybooky!}}
+  %  }
+    
+\end{recipe}
